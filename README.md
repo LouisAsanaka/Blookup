@@ -6,6 +6,9 @@
 - This is my first legitimate app, so the codebase probably looks like spaghetti
 - The UI is very bland, but I think its enough to allow the app to be usable
 
+Setup:
+- Create a property list (.plist) file named keys in the 'Blookup' directory, with a single key called 'currencyConversionApiKey' with a corresponding API key. The free API key can be created [here](https://free.currencyconverterapi.com).
+
 Todos:
 - Modify the code to make it work on the latest iOS version (iOS 12)
 - Clean up the code
