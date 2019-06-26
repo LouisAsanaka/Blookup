@@ -1,0 +1,47 @@
+PODS:
+  - hpple (0.2.0)
+  - Money (2.0.1):
+    - ValueCoding (~> 2)
+  - NVActivityIndicatorView (4.4.0):
+    - NVActivityIndicatorView/Presenter (= 4.4.0)
+  - NVActivityIndicatorView/Presenter (4.4.0)
+  - SwiftSoup (1.7.4)
+  - ValueCoding (2.2.0)
+  - WKZombie (1.1.1):
+    - hpple (= 0.2.0)
+
+DEPENDENCIES:
+  - Money (from `https://github.com/danthorpe/Money.git`, branch `MNY-79_updates_for_xcode_9`)
+  - NVActivityIndicatorView (<= 4.4.0)
+  - SwiftSoup (= 1.7.4)
+  - WKZombie
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - hpple
+    - NVActivityIndicatorView
+    - SwiftSoup
+    - ValueCoding
+    - WKZombie
+
+EXTERNAL SOURCES:
+  Money:
+    :branch: MNY-79_updates_for_xcode_9
+    :git: https://github.com/danthorpe/Money.git
+
+CHECKOUT OPTIONS:
+  Money:
+    :commit: 49d693ddd4fcb6316e64257f06d79f35add6691c
+    :git: https://github.com/danthorpe/Money.git
+
+SPEC CHECKSUMS:
+  hpple: 3b765f96fc2cd56ad1a49aef6f7be5cb2aa64b57
+  Money: 3babd4c04fbf3251d30abe374a64fa8fed29ec64
+  NVActivityIndicatorView: ec7440a57af2450319d3a4181cca7da6fc127064
+  SwiftSoup: 92f5b348c131aed8af04f4326db1579ab19fa08c
+  ValueCoding: dd37df7966fb14d5238c19e2f88c86ac4064ef96
+  WKZombie: 345930c44980d4d3529d5b54b131df0dc04bbb0a
+
+PODFILE CHECKSUM: 0cc4d23e7f996392ddb394129d0faf5067e3fe17
+
+COCOAPODS: 1.7.2

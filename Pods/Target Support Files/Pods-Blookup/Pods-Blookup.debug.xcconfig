@@ -1,0 +1,11 @@
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Money" "${PODS_CONFIGURATION_BUILD_DIR}/NVActivityIndicatorView" "${PODS_CONFIGURATION_BUILD_DIR}/SwiftSoup" "${PODS_CONFIGURATION_BUILD_DIR}/ValueCoding" "${PODS_CONFIGURATION_BUILD_DIR}/WKZombie" "${PODS_CONFIGURATION_BUILD_DIR}/hpple"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Money/Money.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/SwiftSoup/SwiftSoup.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/ValueCoding/ValueCoding.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/WKZombie/WKZombie.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/hpple/hpple.framework/Headers" $(SDKROOT)/usr/include/libxml2
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_LDFLAGS = $(inherited) -l"xml2" -framework "Money" -framework "NVActivityIndicatorView" -framework "QuartzCore" -framework "SwiftSoup" -framework "UIKit" -framework "ValueCoding" -framework "WKZombie" -framework "hpple"
+OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods

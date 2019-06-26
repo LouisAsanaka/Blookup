@@ -1,0 +1,7 @@
+${PODS_ROOT}/Target Support Files/Pods-Blookup/Pods-Blookup-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Money/Money.framework
+${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework
+${BUILT_PRODUCTS_DIR}/SwiftSoup/SwiftSoup.framework
+${BUILT_PRODUCTS_DIR}/ValueCoding/ValueCoding.framework
+${BUILT_PRODUCTS_DIR}/WKZombie/WKZombie.framework
+${BUILT_PRODUCTS_DIR}/hpple/hpple.framework
